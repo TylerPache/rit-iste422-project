@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EdgeFieldTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-11-06T22:17:01" hostname="Masons-MacBook-Pro.local" time="0.045">
+<testsuite name="EdgeFieldTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-11-23T02:14:21" hostname="DESKTOP-KN8F29K" time="0.031">
   <properties/>
-  <testcase name="testInvalidTableBound" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testValidDataType" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testSetVarcharValue" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testInvalidDefaultValue" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testInvalidTableBound" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testValidDataType" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testSetVarcharValue" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testInvalidDefaultValue" classname="EdgeFieldTest" time="0.0"/>
   <testcase name="testValidTableId" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetFieldBound" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testValidDefaultValue" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testSetFieldBound" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testValidDefaultValue" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testSetDataType" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testInvalidDisallowNull" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testInvalidDisallowNull" classname="EdgeFieldTest" time="0.0"/>
   <testcase name="testSetIsPrimaryKey" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testValidDisallowNull" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testInvalidValueDataType" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testValidName" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testInvalidVarcharValue" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testInvalidVarcharValue" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testValidVarcharValue" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testValidTableBound" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testInvalidFieldBound" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testInvalidIsPrimaryKey" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testValidTableBound" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testInvalidFieldBound" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testInvalidIsPrimaryKey" classname="EdgeFieldTest" time="0.0"/>
   <testcase name="testValidIsPrimaryKey" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testSetTableBound" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testReturnStrDataType" classname="EdgeFieldTest" time="0.004"/>
+  <testcase name="testReturnStrDataType" classname="EdgeFieldTest" time="0.003"/>
   <testcase name="testInvalidTableId" classname="EdgeFieldTest" time="0.001"/>
   <testcase name="testInvalidInput" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetDefaultValue" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testSetDisallowNull" classname="EdgeFieldTest" time="0.003"/>
-  <testcase name="testInvalidTypeDataType" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testValidFieldBound" classname="EdgeFieldTest" time="0.003"/>
-  <system-out><![CDATA[18:17:01.320 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.322 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.323 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is an int. Should be set to 0, is set to: 0
-18:17:01.324 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.325 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is set properly. Should be set to 3, is set to: 3
-18:17:01.326 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.328 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Testing that the table ID is set correctly.  Should be set to 0, is set to : 0
-18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the field bound.  Should be set to 3, is set to: 3
-18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is a string. Should be set to '', is set to: 
-18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Testing that DataType is set properly. Should be set to 3, is set to: 3
-18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.334 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.335 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is set properly. Should be set to true, is set to: true
-18:17:01.336 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is bool. Should be set to false, is set to: false
-18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Testing that the Name was set correctly. Should be set to 'Test', is set to : Test
-18:17:01.339 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.341 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.342 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is an int. Should be set to 1, is set to: 1
-18:17:01.344 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.345 [Test worker] INFO  EdgeConnectorTest - Testing that the table bound is set correctly.  Should be set to 0, is set to: 0
-18:17:01.346 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.347 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.348 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is bool. Should be set to false, is set to: false
-18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the table bound.  Should be set to 3, is set to: 3
-18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.352 [Test worker] INFO  EdgeConnectorTest - Testing that strDataType returns proper values. Should be set to {"Varchar", "Boolean", "Integer", "Double"}, is set to: [Ljava.lang.String;@623e088f
-18:17:01.354 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.355 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing invalid string format. 
-18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is set properly. Should be set to test, is set to: test
-18:17:01.358 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.359 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is set properly. Should be set to true, is set to: true
-18:17:01.361 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.362 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-18:17:01.364 [Test worker] INFO  EdgeConnectorTest - Testing that the field bound is set properly.  Should be set to 0, is set to: 0
+  <testcase name="testSetDefaultValue" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testSetDisallowNull" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testInvalidTypeDataType" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testValidFieldBound" classname="EdgeFieldTest" time="0.001"/>
+  <system-out><![CDATA[21:14:21.051 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.052 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.053 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is an int. Should be set to 0, is set to: 0
+21:14:21.054 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.055 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is set properly. Should be set to 3, is set to: 3
+21:14:21.056 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.056 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Testing that the table ID is set correctly.  Should be set to 0, is set to : 0
+21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the field bound.  Should be set to 3, is set to: 3
+21:14:21.059 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.059 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is a string. Should be set to '', is set to: 
+21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Testing that DataType is set properly. Should be set to 3, is set to: 3
+21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.061 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.062 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is set properly. Should be set to true, is set to: true
+21:14:21.062 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.063 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is bool. Should be set to false, is set to: false
+21:14:21.063 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.064 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.064 [Test worker] INFO  EdgeConnectorTest - Testing that the Name was set correctly. Should be set to 'Test', is set to : Test
+21:14:21.065 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.066 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.067 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is an int. Should be set to 1, is set to: 1
+21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Testing that the table bound is set correctly.  Should be set to 0, is set to: 0
+21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.069 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.070 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.070 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is bool. Should be set to false, is set to: false
+21:14:21.071 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.071 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the table bound.  Should be set to 3, is set to: 3
+21:14:21.072 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.075 [Test worker] INFO  EdgeConnectorTest - Testing that strDataType returns proper values. Should be set to {"Varchar", "Boolean", "Integer", "Double"}, is set to: [Ljava.lang.String;@e84a8e1
+21:14:21.075 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.076 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.076 [Test worker] INFO  EdgeConnectorTest - Testing invalid string format. 
+21:14:21.077 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.077 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is set properly. Should be set to test, is set to: test
+21:14:21.078 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.079 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is set properly. Should be set to true, is set to: true
+21:14:21.080 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.081 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+21:14:21.081 [Test worker] INFO  EdgeConnectorTest - Testing that the field bound is set properly.  Should be set to 0, is set to: 0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

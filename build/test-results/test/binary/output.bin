@@ -1,139 +1,94 @@
-Y18:17:01.207 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.216 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.218 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.220 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.222 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.236 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.237 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-	Y18:17:01.240 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.023 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.029 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.030 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.032 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.032 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.037 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.038 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+	Z21:14:21.039 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
 
-Y18:17:01.241 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.242 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.243 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.244 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.246 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-U18:17:01.270 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-e18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 4, 6]
-é18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [4, 5, 6] is set to : [4, 4, 6]
-U18:17:01.273 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-j18:17:01.274 [Test worker] INFO  EdgeConnectorTest - Running test with an index out of bound exception...
-U18:17:01.276 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-e18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
-é18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [5, 4, 6] is set to : [5, 4, 6]
-U18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-å18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedFields was set correctly. Should be set to [4] is set to : [4]
-U18:17:01.279 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-ë18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedTablesField was set correctly. Should be set to [4] is set to : [4]
-U18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-g18:17:01.281 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
-ê18:17:01.282 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 5, 6] is set to : [4, 5, 6]
-U18:17:01.282 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-g18:17:01.283 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
-U18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-ã18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Testing that the NativeFields was set correctly. Should be set to [4] is set to : [4]
-U18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-e18:17:01.284 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
-U18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-g18:17:01.285 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
-ê18:17:01.287 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 6, 5] is set to : [4, 6, 5]
-U18:17:01.288 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-U18:17:01.289 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-U18:17:01.290 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
-^18:17:01.293 [Test worker] INFO  EdgeConnectorTest - Output of testObj.toString() : Table: 3
-{
-TableName: Test
-NativeFields: 4|5|6
-RelatedTables: 3|4
-RelatedFields: 4|5|6
-}
-
-Y18:17:01.320 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-Y18:17:01.322 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-{18:17:01.323 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is an int. Should be set to 0, is set to: 0
- Y18:17:01.324 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
- Å18:17:01.325 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is set properly. Should be set to 3, is set to: 3
-!Y18:17:01.326 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-"Y18:17:01.328 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-"Ñ18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Testing that the table ID is set correctly.  Should be set to 0, is set to : 0
-#Y18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-#Å18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the field bound.  Should be set to 3, is set to: 3
-$Y18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-$}18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is a string. Should be set to '', is set to: 
-%Y18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-%}18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Testing that DataType is set properly. Should be set to 3, is set to: 3
-&Y18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-'Y18:17:01.334 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-'á18:17:01.335 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is set properly. Should be set to true, is set to: true
-(Y18:17:01.336 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-(Å18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is bool. Should be set to false, is set to: false
-)Y18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-*Y18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-*à18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Testing that the Name was set correctly. Should be set to 'Test', is set to : Test
-+Y18:17:01.339 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-,Y18:17:01.341 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-,{18:17:01.342 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is an int. Should be set to 1, is set to: 1
--Y18:17:01.344 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
--Ü18:17:01.345 [Test worker] INFO  EdgeConnectorTest - Testing that the table bound is set correctly.  Should be set to 0, is set to: 0
-.Y18:17:01.346 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-/Y18:17:01.347 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-0Y18:17:01.348 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-0Å18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is bool. Should be set to false, is set to: false
-1Y18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-1Å18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the table bound.  Should be set to 3, is set to: 3
-2Y18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-2À18:17:01.352 [Test worker] INFO  EdgeConnectorTest - Testing that strDataType returns proper values. Should be set to {"Varchar", "Boolean", "Integer", "Double"}, is set to: [Ljava.lang.String;@623e088f
-3Y18:17:01.354 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-4Y18:17:01.355 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-4U18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing invalid string format. 
-5Y18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-5á18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is set properly. Should be set to test, is set to: test
-6Y18:17:01.358 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-6á18:17:01.359 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is set properly. Should be set to true, is set to: true
-7Y18:17:01.361 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-8Y18:17:01.362 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
-8Ö18:17:01.364 [Test worker] INFO  EdgeConnectorTest - Testing that the field bound is set properly.  Should be set to 0, is set to: 0
-:9i18:17:01.383 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:9N18:17:01.384 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:9Q18:17:01.422 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:9N18:17:01.423 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:;i18:17:01.426 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:;N18:17:01.428 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:;Q18:17:01.448 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:;N18:17:01.451 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:<i18:17:01.456 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:<N18:17:01.457 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:<Q18:17:01.461 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:<N18:17:01.461 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:=i18:17:01.485 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:=N18:17:01.485 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:=Q18:17:01.488 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:=N18:17:01.488 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:>i18:17:01.491 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:>N18:17:01.492 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:>Q18:17:01.496 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:>N18:17:01.497 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:?i18:17:01.502 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:?N18:17:01.502 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:?Q18:17:01.512 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:?N18:17:01.512 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:@i18:17:01.517 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:@N18:17:01.519 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:@Q18:17:01.527 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:@N18:17:01.528 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:Ai18:17:01.533 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:AN18:17:01.535 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:AQ18:17:01.538 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:AN18:17:01.539 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:Bi18:17:01.542 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:BN18:17:01.542 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:BQ18:17:01.546 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:BN18:17:01.547 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
- :B¡Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
-:Ci18:17:09.976 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:CN18:17:09.977 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:CQ18:17:09.985 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:CN18:17:09.986 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
-:Di18:17:09.989 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
-:DN18:17:09.989 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
-:DQ18:17:09.990 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
-:DN18:17:09.991 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+Z21:14:21.040 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.041 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.042 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.042 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.044 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.051 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.052 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+|21:14:21.053 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is an int. Should be set to 0, is set to: 0
+Z21:14:21.054 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Ç21:14:21.055 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is set properly. Should be set to 3, is set to: 3
+Z21:14:21.056 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.056 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Ö21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Testing that the table ID is set correctly.  Should be set to 0, is set to : 0
+Z21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Ç21:14:21.057 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the field bound.  Should be set to 3, is set to: 3
+Z21:14:21.059 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+~21:14:21.059 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is a string. Should be set to '', is set to: 
+Z21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+~21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Testing that DataType is set properly. Should be set to 3, is set to: 3
+Z21:14:21.060 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.061 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+à21:14:21.062 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is set properly. Should be set to true, is set to: true
+Z21:14:21.062 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Ç21:14:21.063 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is bool. Should be set to false, is set to: false
+Z21:14:21.063 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.064 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+â21:14:21.064 [Test worker] INFO  EdgeConnectorTest - Testing that the Name was set correctly. Should be set to 'Test', is set to : Test
+Z21:14:21.065 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+Z21:14:21.066 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+|21:14:21.067 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is an int. Should be set to 1, is set to: 1
+Z21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+á21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Testing that the table bound is set correctly.  Should be set to 0, is set to: 0
+ Z21:14:21.068 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+!Z21:14:21.069 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+"Z21:14:21.070 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+"Ç21:14:21.070 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is bool. Should be set to false, is set to: false
+#Z21:14:21.071 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+#Ç21:14:21.071 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the table bound.  Should be set to 3, is set to: 3
+$Z21:14:21.072 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+$À21:14:21.075 [Test worker] INFO  EdgeConnectorTest - Testing that strDataType returns proper values. Should be set to {"Varchar", "Boolean", "Integer", "Double"}, is set to: [Ljava.lang.String;@e84a8e1
+%Z21:14:21.075 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+&Z21:14:21.076 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+&V21:14:21.076 [Test worker] INFO  EdgeConnectorTest - Testing invalid string format. 
+'Z21:14:21.077 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+'à21:14:21.077 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is set properly. Should be set to test, is set to: test
+(Z21:14:21.078 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+(à21:14:21.079 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is set properly. Should be set to true, is set to: true
+)Z21:14:21.080 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+*Z21:14:21.081 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+*Ü21:14:21.081 [Test worker] INFO  EdgeConnectorTest - Testing that the field bound is set properly.  Should be set to 0, is set to: 0
+,+V21:14:21.088 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,+f21:14:21.090 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 4, 6]
+,+è21:14:21.090 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [4, 5, 6] is set to : [4, 4, 6]
+,-V21:14:21.090 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,-k21:14:21.090 [Test worker] INFO  EdgeConnectorTest - Running test with an index out of bound exception...
+,.V21:14:21.091 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,.f21:14:21.092 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+,.è21:14:21.092 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [5, 4, 6] is set to : [5, 4, 6]
+,/V21:14:21.093 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,/ç21:14:21.094 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedFields was set correctly. Should be set to [4] is set to : [4]
+,0V21:14:21.095 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,0í21:14:21.095 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedTablesField was set correctly. Should be set to [4] is set to : [4]
+,1V21:14:21.096 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,1h21:14:21.097 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+,1ë21:14:21.097 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 5, 6] is set to : [4, 5, 6]
+,2V21:14:21.097 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,2h21:14:21.097 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+,3V21:14:21.098 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,3å21:14:21.098 [Test worker] INFO  EdgeConnectorTest - Testing that the NativeFields was set correctly. Should be set to [4] is set to : [4]
+,4V21:14:21.099 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,4f21:14:21.100 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+,5V21:14:21.100 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,5h21:14:21.101 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+,5ë21:14:21.101 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 6, 5] is set to : [4, 6, 5]
+,6V21:14:21.101 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,7V21:14:21.102 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,8V21:14:21.103 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+,8^21:14:21.104 [Test worker] INFO  EdgeConnectorTest - Output of testObj.toString() : Table: 3
+,8{
+,8TableName: Test
+,8NativeFields: 4|5|6
+,8RelatedTables: 3|4
+,8RelatedFields: 4|5|6
+,8}
+,8
