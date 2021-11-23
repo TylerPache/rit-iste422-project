@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class EdgeTableTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class EdgeTableTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; EdgeTableTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.023s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAddNativeFields</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddRelatedFields</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddRelatedFields_withoutNativeField</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddRelatedTables</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldDown</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldDown_usingInvalidField</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldDown_usingLastField</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldUp</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldUp_usingFirstField</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveFieldUp_usingInvalidField</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNameField</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNumFigureField</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToStringMethod</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:17:01.270 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 4, 6]
+18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [4, 5, 6] is set to : [4, 4, 6]
+18:17:01.273 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.274 [Test worker] INFO  EdgeConnectorTest - Running test with an index out of bound exception...
+18:17:01.276 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [5, 4, 6] is set to : [5, 4, 6]
+18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedFields was set correctly. Should be set to [4] is set to : [4]
+18:17:01.279 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedTablesField was set correctly. Should be set to [4] is set to : [4]
+18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.281 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.282 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 5, 6] is set to : [4, 5, 6]
+18:17:01.282 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Testing that the NativeFields was set correctly. Should be set to [4] is set to : [4]
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.285 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.287 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 6, 5] is set to : [4, 6, 5]
+18:17:01.288 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.289 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.290 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.293 [Test worker] INFO  EdgeConnectorTest - Output of testObj.toString() : Table: 3
+{
+TableName: Test
+NativeFields: 4|5|6
+RelatedTables: 3|4
+RelatedFields: 4|5|6
+}
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at Nov 6, 2021, 6:17:10 PM</p>
+</div>
+</div>
+</body>
+</html>

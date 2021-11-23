@@ -1,49 +1,56 @@
 import java.util.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class EdgeTable {
    private int numFigure;
    private String name;
    private ArrayList alRelatedTables, alNativeFields;
    private int[] relatedTables, relatedFields, nativeFields;
-   
+   private static Logger logger = LogManager.getLogger(EdgeTable.class.getName());
+
+
    public EdgeTable(String inputString) {
       StringTokenizer st = new StringTokenizer(inputString, EdgeConvertFileParser.DELIM);
       numFigure = Integer.parseInt(st.nextToken());
       name = st.nextToken();
       alRelatedTables = new ArrayList();
       alNativeFields = new ArrayList();
+      logger.debug("Creating EdgeTable field with " + inputString);
+
    }
-   
+
    public int getNumFigure() {
       return numFigure;
    }
-   
+
    public String getName() {
       return name;
    }
-   
+
    public void addRelatedTable(int relatedTable) {
-      alRelatedTables.add(new Integer(relatedTable));
+      alRelatedTables.add(Integer.valueOf(relatedTable));
    }
-   
+
    public int[] getRelatedTablesArray() {
       return relatedTables;
    }
-   
+
    public int[] getRelatedFieldsArray() {
       return relatedFields;
    }
-   
+
    public void setRelatedField(int index, int relatedValue) {
       relatedFields[index] = relatedValue;
    }
-   
+
    public int[] getNativeFieldsArray() {
       return nativeFields;
    }
 
    public void addNativeField(int value) {
-      alNativeFields.add(new Integer(value));
+      alNativeFields.add(Integer.valueOf(value));
    }
 
    public void moveFieldUp(int index) { //move the field closer to the beginning of the list
@@ -57,7 +64,7 @@ public class EdgeTable {
       relatedFields[index - 1] = relatedFields[index]; //copy target element to destination
       relatedFields[index] = tempRelated; //copy saved element to target's original location
    }
-   
+
    public void moveFieldDown(int index) { //move the field closer to the end of the list
       if (index == (nativeFields.length - 1)) {
          return;
@@ -77,13 +84,13 @@ public class EdgeTable {
       for (int i = 0; i < temp.length; i++) {
          nativeFields[i] = temp[i].intValue();
       }
-      
+
       temp = (Integer[])alRelatedTables.toArray(new Integer[alRelatedTables.size()]);
       relatedTables = new int[temp.length];
       for (int i = 0; i < temp.length; i++) {
          relatedTables[i] = temp[i].intValue();
       }
-      
+
       relatedFields = new int[nativeFields.length];
       for (int i = 0; i < relatedFields.length; i++) {
          relatedFields[i] = 0;
@@ -117,7 +124,7 @@ public class EdgeTable {
          }
       }
       sb.append("\r\n}\r\n");
-      
+
       return sb.toString();
    }
 }

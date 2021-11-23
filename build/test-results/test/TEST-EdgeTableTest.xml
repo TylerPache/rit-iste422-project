@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeTableTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-11-06T22:17:01" hostname="Masons-MacBook-Pro.local" time="0.025">
+  <properties/>
+  <testcase name="testMoveFieldUp_usingFirstField" classname="EdgeTableTest" time="0.004"/>
+  <testcase name="testAddRelatedFields_withoutNativeField" classname="EdgeTableTest" time="0.002"/>
+  <testcase name="testMoveFieldUp" classname="EdgeTableTest" time="0.002"/>
+  <testcase name="testAddRelatedFields" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testAddRelatedTables" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testMoveFieldDown_usingLastField" classname="EdgeTableTest" time="0.002"/>
+  <testcase name="testMoveFieldDown_usingInvalidField" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testAddNativeFields" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testMoveFieldUp_usingInvalidField" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testMoveFieldDown" classname="EdgeTableTest" time="0.004"/>
+  <testcase name="testNumFigureField" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testNameField" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testToStringMethod" classname="EdgeTableTest" time="0.005"/>
+  <system-out><![CDATA[18:17:01.270 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 4, 6]
+18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [4, 5, 6] is set to : [4, 4, 6]
+18:17:01.273 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.274 [Test worker] INFO  EdgeConnectorTest - Running test with an index out of bound exception...
+18:17:01.276 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [5, 4, 6] is set to : [5, 4, 6]
+18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedFields was set correctly. Should be set to [4] is set to : [4]
+18:17:01.279 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedTablesField was set correctly. Should be set to [4] is set to : [4]
+18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.281 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.282 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 5, 6] is set to : [4, 5, 6]
+18:17:01.282 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Testing that the NativeFields was set correctly. Should be set to [4] is set to : [4]
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.285 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+18:17:01.287 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 6, 5] is set to : [4, 6, 5]
+18:17:01.288 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.289 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.290 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+18:17:01.293 [Test worker] INFO  EdgeConnectorTest - Output of testObj.toString() : Table: 3
+{
+TableName: Test
+NativeFields: 4|5|6
+RelatedTables: 3|4
+RelatedFields: 4|5|6
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
