@@ -1,0 +1,107 @@
+2021-11-07 17:24:34.183 [main] INFO  RunEdgeConvert - MY FIRST LOG :D
+2021-11-07 17:24:34.185 [main] INFO  RunEdgeConvert - Starting EdgeConvertGUI
+2021-11-07 17:24:34.192 [main] INFO  EdgeConvertGUI - Showing edge converter GUI...
+2021-11-07 17:24:35.221 [main] DEBUG EdgeConvertGUI - Creating EdgeConvertGUI object.
+2021-11-07 17:24:38.485 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using /Users/masonlapine/GitHub/iste-422-MTD/422-project/./Courses.edg
+2021-11-07 17:24:38.486 [AWT-EventQueue-0] INFO  ParseEdgeFile - Parsing edge file...
+2021-11-07 17:24:38.503 [AWT-EventQueue-0] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-07 17:24:38.504 [AWT-EventQueue-0] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-07 17:24:38.505 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-07 17:24:38.505 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-07 17:24:38.505 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-07 17:24:38.506 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-07 17:24:38.507 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-07 17:24:38.507 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-07 17:24:38.518 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-07 17:24:38.519 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-07 17:24:38.519 [AWT-EventQueue-0] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-07 17:24:38.520 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-07 17:24:38.520 [AWT-EventQueue-0] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-07 17:24:38.520 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-07 17:24:38.520 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-07 17:24:38.520 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-07 17:24:38.521 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-07 17:24:38.521 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-07 17:24:38.521 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-07 17:24:38.521 [AWT-EventQueue-0] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-07 17:24:38.521 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-07 17:25:10.332 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Creating EdgeConvertCreateDDL object using [LEdgeTable;@24d7384a and [LEdgeField;@20ffd013
+2021-11-07 17:25:10.334 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating CreateDDLMySQL object using [LEdgeTable;@24d7384a and [LEdgeField;@20ffd013
+2021-11-07 17:25:11.978 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Creating EdgeConvertCreateDDL object using [LEdgeTable;@24d7384a and [LEdgeField;@20ffd013
+2021-11-07 17:25:11.979 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating CreateDDLMySQL object using [LEdgeTable;@24d7384a and [LEdgeField;@20ffd013
+2021-11-07 17:25:14.031 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.033 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 7
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 7 | 3
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 1
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 7 | 4
+2021-11-07 17:25:14.034 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 2
+2021-11-07 17:25:14.035 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 7 | 5
+2021-11-07 17:25:14.035 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 3
+2021-11-07 17:25:14.035 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 7 | 6
+2021-11-07 17:25:14.035 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 4
+2021-11-07 17:25:14.035 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 7 | 7
+2021-11-07 17:25:14.036 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 4 with value of 7
+2021-11-07 17:25:14.036 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.036 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 8
+2021-11-07 17:25:14.036 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.037 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.037 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 3
+2021-11-07 17:25:14.037 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 1
+2021-11-07 17:25:14.037 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 4
+2021-11-07 17:25:14.037 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 2
+2021-11-07 17:25:14.038 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 5
+2021-11-07 17:25:14.038 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 3
+2021-11-07 17:25:14.038 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 6
+2021-11-07 17:25:14.038 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 4
+2021-11-07 17:25:14.039 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 7
+2021-11-07 17:25:14.039 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 5
+2021-11-07 17:25:14.039 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 8 | 8
+2021-11-07 17:25:14.039 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 5 with value of 8
+2021-11-07 17:25:14.039 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.040 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 11
+2021-11-07 17:25:14.040 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.040 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.041 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 3
+2021-11-07 17:25:14.041 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 1
+2021-11-07 17:25:14.042 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 4
+2021-11-07 17:25:14.042 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 2
+2021-11-07 17:25:14.042 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 5
+2021-11-07 17:25:14.043 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 3
+2021-11-07 17:25:14.044 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 6
+2021-11-07 17:25:14.044 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 4
+2021-11-07 17:25:14.044 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 7
+2021-11-07 17:25:14.044 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 5
+2021-11-07 17:25:14.045 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 8
+2021-11-07 17:25:14.046 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 6
+2021-11-07 17:25:14.046 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 11 | 11
+2021-11-07 17:25:14.046 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 6 with value of 11
+2021-11-07 17:25:14.046 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.047 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 6
+2021-11-07 17:25:14.047 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.047 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.047 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 6 | 3
+2021-11-07 17:25:14.047 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 1
+2021-11-07 17:25:14.048 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 6 | 4
+2021-11-07 17:25:14.048 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 2
+2021-11-07 17:25:14.048 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 6 | 5
+2021-11-07 17:25:14.048 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 3
+2021-11-07 17:25:14.049 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 6 | 6
+2021-11-07 17:25:14.049 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 3 with value of 6
+2021-11-07 17:25:14.049 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.049 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 3
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 3 | 3
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 0 with value of 3
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Getting field using figure number of 5
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - length: 7
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 0
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 5 | 3
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 1
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 5 | 4
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - HELLO THERE: 2
+2021-11-07 17:25:14.050 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - 5 | 5
+2021-11-07 17:25:14.051 [AWT-EventQueue-0] DEBUG EdgeConvertCreateDDL - Found table at index 2 with value of 5

@@ -1,21 +1,23 @@
-plugins {
-    id 'java'
-    id 'application'
-}
+/*
+	Compiles project code
+	Run tests
+	Runs application
+*/
 
-ext {
-    javaMainClass = 'RunEdgeConvert'
-}
-
-application{
-	mainClassName = javaMainClass
-}
+apply plugin: 'java'
 
 repositories {
 	mavenCentral()
 }
-
 dependencies {
-    testImplementation 'junit:junit:4.12'
-	implementation 'hamcrest-core:hamcrest-core:1.3'
+	testImplementation 'junit:junit:4.12'
+<<<<<<< Updated upstream
+=======
+	implementation 'org.apache.logging.log4j:log4j-api:2.13.3'
+    implementation 'org.apache.logging.log4j:log4j-core:2.13.3'
+>>>>>>> Stashed changes
+}
+task run(type: JavaExec) {
+	main = 'RunEdgeConvert'
+	classpath = sourceSets.main.runtimeClasspath
 }

@@ -1,0 +1,590 @@
+2021-11-06 18:17:01.207 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.215 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.216 [Test worker] DEBUG EdgeConnectorTest - EndPoint1 initialized to 2. testObj.getEndPoint1(): 2
+2021-11-06 18:17:01.216 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.217 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.218 [Test worker] DEBUG EdgeConnectorTest - EndPoint2 initialized to 3. testObj.getEndPoint2(): 3
+2021-11-06 18:17:01.218 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.220 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.220 [Test worker] DEBUG EdgeConnectorTest - endStyle1 initialized to "testStyle1". testObj.getEndStyle1(): testStyle1
+2021-11-06 18:17:01.220 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.221 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.221 [Test worker] DEBUG EdgeConnectorTest - endStyle1 initialized to "testStyle2". testObj.getEndStyle2(): testStyle2
+2021-11-06 18:17:01.222 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.222 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.235 [Test worker] DEBUG EdgeConnectorTest - Run of testGetNumConnector opt1: 1 , getNumConnector: 1
+2021-11-06 18:17:01.236 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.236 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.237 [Test worker] DEBUG EdgeConnectorTest - isEP1Field test should be false. testObj.getIsEP1Field(): false
+2021-11-06 18:17:01.237 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.239 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.239 [Test worker] DEBUG EdgeConnectorTest - isEP1Table test should be false. testObj.getIsEP1Table(): false
+2021-11-06 18:17:01.240 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.240 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.240 [Test worker] DEBUG EdgeConnectorTest - isEP2Field test should be false. testObj.getIsEP2Field(): false
+2021-11-06 18:17:01.241 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.241 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.241 [Test worker] DEBUG EdgeConnectorTest - isEP2Table test should be false. testObj.getIsEP2Table(): false
+2021-11-06 18:17:01.242 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.243 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.243 [Test worker] DEBUG EdgeConnectorTest - isEP1Field test should be set manually. testObj.getIsEP1Field(): false
+2021-11-06 18:17:01.243 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.243 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.243 [Test worker] DEBUG EdgeConnectorTest - isEP1Table test should be set manually. testObj.getIsEP1Table(): false
+2021-11-06 18:17:01.244 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.245 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.245 [Test worker] DEBUG EdgeConnectorTest - isEP2Field test should be set manually. testObj.getIsEP2Field(): false
+2021-11-06 18:17:01.246 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.246 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 1|2|3|testStyle1|testStyle2
+2021-11-06 18:17:01.246 [Test worker] DEBUG EdgeConnectorTest - isEP2Table test should be set manually. testObj.getIsEP2Table(): false
+2021-11-06 18:17:01.270 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.271 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 4, 6]
+2021-11-06 18:17:01.272 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [4, 5, 6] is set to : [4, 4, 6]
+2021-11-06 18:17:01.273 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.274 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.274 [Test worker] INFO  EdgeConnectorTest - Running test with an index out of bound exception...
+2021-11-06 18:17:01.276 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.277 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+2021-11-06 18:17:01.277 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field up. Should be set to [5, 4, 6] is set to : [5, 4, 6]
+2021-11-06 18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.278 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.278 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedFields was set correctly. Should be set to [4] is set to : [4]
+2021-11-06 18:17:01.279 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.280 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Testing that the RelatedTablesField was set correctly. Should be set to [4] is set to : [4]
+2021-11-06 18:17:01.280 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.281 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.281 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+2021-11-06 18:17:01.282 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 5, 6] is set to : [4, 5, 6]
+2021-11-06 18:17:01.282 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.283 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.283 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+2021-11-06 18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.283 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.283 [Test worker] INFO  EdgeConnectorTest - Testing that the NativeFields was set correctly. Should be set to [4] is set to : [4]
+2021-11-06 18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.284 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.284 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field up : [4, 5, 6]
+2021-11-06 18:17:01.284 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.284 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.285 [Test worker] INFO  EdgeConnectorTest - RelatedField before moving field down : [4, 5, 6]
+2021-11-06 18:17:01.287 [Test worker] INFO  EdgeConnectorTest - RelatedField after moving the field down. Should be set to [4, 6, 5] is set to : [4, 6, 5]
+2021-11-06 18:17:01.288 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.288 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.289 [Test worker] DEBUG EdgeConnectorTest - Testing that the NumFigureField was set correctly. Should be set to 3, is set to : 3
+2021-11-06 18:17:01.289 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.289 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.289 [Test worker] DEBUG EdgeConnectorTest - Testing that the NameField was set correctly. Should be set to 'Test', is set to : Test
+2021-11-06 18:17:01.290 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeTable
+2021-11-06 18:17:01.290 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 3|Test
+2021-11-06 18:17:01.293 [Test worker] INFO  EdgeConnectorTest - Output of testObj.toString() : Table: 3
+{
+TableName: Test
+NativeFields: 4|5|6
+RelatedTables: 3|4
+RelatedFields: 4|5|6
+}
+
+2021-11-06 18:17:01.320 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.321 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.322 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.322 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.323 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is an int. Should be set to 0, is set to: 0
+2021-11-06 18:17:01.324 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.324 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.325 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is set properly. Should be set to 3, is set to: 3
+2021-11-06 18:17:01.326 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.327 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.328 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.328 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Testing that the table ID is set correctly.  Should be set to 0, is set to : 0
+2021-11-06 18:17:01.329 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.330 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the field bound.  Should be set to 3, is set to: 3
+2021-11-06 18:17:01.330 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.332 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is a string. Should be set to '', is set to: 
+2021-11-06 18:17:01.332 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.333 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Testing that DataType is set properly. Should be set to 3, is set to: 3
+2021-11-06 18:17:01.333 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.334 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.334 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.335 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.335 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is set properly. Should be set to true, is set to: true
+2021-11-06 18:17:01.336 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.337 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is bool. Should be set to false, is set to: false
+2021-11-06 18:17:01.337 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.338 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.338 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.338 [Test worker] INFO  EdgeConnectorTest - Testing that the Name was set correctly. Should be set to 'Test', is set to : Test
+2021-11-06 18:17:01.339 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.340 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.341 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.342 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.342 [Test worker] INFO  EdgeConnectorTest - Testing that VarcharValue is an int. Should be set to 1, is set to: 1
+2021-11-06 18:17:01.344 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.345 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.345 [Test worker] INFO  EdgeConnectorTest - Testing that the table bound is set correctly.  Should be set to 0, is set to: 0
+2021-11-06 18:17:01.346 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.346 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.347 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.348 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.348 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.348 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Testing that IsPrimaryKey is bool. Should be set to false, is set to: false
+2021-11-06 18:17:01.349 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.349 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Testing that you can set the table bound.  Should be set to 3, is set to: 3
+2021-11-06 18:17:01.350 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.350 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.352 [Test worker] INFO  EdgeConnectorTest - Testing that strDataType returns proper values. Should be set to {"Varchar", "Boolean", "Integer", "Double"}, is set to: [Ljava.lang.String;@623e088f
+2021-11-06 18:17:01.354 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.355 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.355 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.355 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing invalid string format. 
+2021-11-06 18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.356 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.356 [Test worker] INFO  EdgeConnectorTest - Testing that DefaultValue is set properly. Should be set to test, is set to: test
+2021-11-06 18:17:01.358 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.359 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.359 [Test worker] INFO  EdgeConnectorTest - Testing that DisallowNull is set properly. Should be set to true, is set to: true
+2021-11-06 18:17:01.361 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.361 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.362 [Test worker] INFO  EdgeConnectorTest - Setting up test using EdgeConnector
+2021-11-06 18:17:01.364 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|Test|0|0|0|0|1|false|false|
+2021-11-06 18:17:01.364 [Test worker] INFO  EdgeConnectorTest - Testing that the field bound is set properly.  Should be set to 0, is set to: 0
+2021-11-06 18:17:01.383 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.384 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.396 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.397 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.398 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.398 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.398 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.399 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.399 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.399 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.419 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.419 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.420 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.421 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.421 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.422 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.422 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.422 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.423 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.423 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.424 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.425 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the isEntity was set correctly. Should be set to false, is set to : false
+2021-11-06 18:17:01.426 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.428 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.430 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.431 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.441 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.446 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.447 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.448 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.448 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.448 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.448 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.450 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.451 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.452 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.454 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the isAttribute was set correctly. Should be set to false, is set to : false
+2021-11-06 18:17:01.456 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.457 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.458 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.459 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.460 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.461 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.461 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.461 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.461 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.462 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.462 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.462 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.464 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.465 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.484 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the alFields was set correctly. Should be set to to empty ArrayList, is set to : [3|Grade|13|0|0|0|1|false|false|, 4|CourseName|0|0|0|0|1|false|false|, 5|Number|13|0|0|0|1|false|false|, 6|FacSSN|2|0|0|0|1|false|false|, 7|StudentSSN|1|0|0|0|1|false|false|, 8|StudentName|1|0|0|0|1|false|false|, 11|FacultyName|2|0|0|0|1|false|false|]
+2021-11-06 18:17:01.485 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.485 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.486 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.486 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.486 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.487 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.488 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.488 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.488 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.489 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.489 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.490 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.491 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the numLine was set correctly. Should be set to 0, is set to : 1
+2021-11-06 18:17:01.491 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.492 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.493 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.494 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.494 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.494 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.495 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.496 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.496 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.496 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.496 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.497 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.498 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.498 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.498 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.498 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.498 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.499 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.499 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.499 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.499 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.499 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.500 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.500 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the numConnector was set correctly. Should be set to 0, is set to : 24
+2021-11-06 18:17:01.502 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.502 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.505 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.506 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.507 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.508 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.508 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.510 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.510 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.510 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.511 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.512 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.512 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.512 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.513 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.515 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that first line in sample open starts with a EDGE_ID. Should be set to 'EDGE Diagram File', is set to : true
+2021-11-06 18:17:01.516 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that FileReader was established. Should be set to FileReader object, is set to : java.io.FileReader@2dca0d64
+2021-11-06 18:17:01.516 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that BufferedReader was established. Should be set to BufferedReader object, is set to : java.io.BufferedReader@f80945f
+2021-11-06 18:17:01.516 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that used BufferedReader is closed. Should be closed (t,f) : true
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeTable array was established. Should be set to EdgeTable array, is set to : [LEdgeTable;@23aa363a
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeField array was established. Should be set to EdgeField array, is set to : [LEdgeField;@55dfebeb
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeConnector array was established. Should be set to EdgeConnector array, is set to : [LEdgeConnector;@1cdc4c27
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that connectors are created. Should be empty, is set to : 10
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that style field was used. Should be "Entity", is set to : Entity
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that isEntity field was used. Should be true, is set to : false
+2021-11-06 18:17:01.517 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that connectors are created. Should be false, is set to : false
+2021-11-06 18:17:01.517 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.519 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.520 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.520 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.521 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.523 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.525 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.526 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.526 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.526 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.526 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.527 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.527 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.527 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.527 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.528 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.528 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.529 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.529 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.529 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.531 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the alConnectors was set correctly. Should be set to empty ArrayList, is set to : [EdgeConnector@77b14724, EdgeConnector@5d9b7a8a, EdgeConnector@1e8ce150, EdgeConnector@604f2bd2, EdgeConnector@1d3ac898, EdgeConnector@1b73be9f, EdgeConnector@628c4ac0, EdgeConnector@7b84fcf8, EdgeConnector@30b19518, EdgeConnector@363042d7]
+2021-11-06 18:17:01.533 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.535 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.536 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.536 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.536 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.537 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.538 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.538 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.539 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.539 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.539 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that first line in sample open starts with a SAVE_ID. Should be set to 'EdgeConvert Save File', is set to : true
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that FileReader was established. Should be set to FileReader object, is set to : java.io.FileReader@366ac49b
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that BufferedReader was established. Should be set to BufferedReader object, is set to : java.io.BufferedReader@6ad59d92
+2021-11-06 18:17:01.540 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that used BufferedReader is closed. Should be closed (t,f) : true
+2021-11-06 18:17:01.541 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeTable array was established. Should be set to EdgeTable array, is set to : [LEdgeTable;@56f0cc85
+2021-11-06 18:17:01.541 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeField array was established. Should be set to EdgeField array, is set to : [LEdgeField;@62e20a76
+2021-11-06 18:17:01.541 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that EdgeConnector array was established. Should be set to EdgeConnector array, is set to : [LEdgeConnector;@2cc44ad
+2021-11-06 18:17:01.542 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:01.542 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:01.545 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.545 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.545 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:01.546 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:01.546 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:01.547 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:01.547 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:01.547 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:01.547 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:01.548 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:09.951 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_other_file.edg
+2021-11-06 18:17:09.956 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that FileReader was established. Should be set to FileReader object, is set to : java.io.FileReader@5b04476e
+2021-11-06 18:17:09.959 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that BufferedReader was established. Should be set to BufferedReader object, is set to : java.io.BufferedReader@5ad10c1a
+2021-11-06 18:17:09.966 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that no alFields are created. Should be empty, is set to : 0
+2021-11-06 18:17:09.967 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that no alTables are created. Should be empty, is set to : 0
+2021-11-06 18:17:09.968 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that no alConnectors are created. Should be empty, is set to : 0
+2021-11-06 18:17:09.968 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that no connectors are created. Should be null, is set to : null
+2021-11-06 18:17:09.976 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:09.977 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:09.978 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:09.979 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:09.980 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:09.981 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:09.981 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:09.984 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:09.985 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:09.985 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:09.985 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:09.985 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:09.985 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:09.985 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:09.986 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:09.986 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:09.986 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:09.986 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:09.987 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:09.988 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the numFigure was set correctly. Should be set to 0, is set to : 19
+2021-11-06 18:17:09.989 [Test worker] INFO  EdgeConvertFileParserTest - Setting up test using EdgeConvertFileParser
+2021-11-06 18:17:09.989 [Test worker] INFO  EdgeConvertFileParser - Parsing edge file...
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 9|1|7|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 10|1|8|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 12|2|11|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 14|1|15|ER mand many|ER opt many
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 16|15|13|ER mand many|ER opt many
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 20|2|13|ER single|ER opt many
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 21|15|3|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 22|-1|13|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 23|5|13|null|null
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConnector - Creating EdgeConnector object using 24|6|2|null|null
+2021-11-06 18:17:09.990 [Test worker] INFO  EdgeConvertFileParser - Resolving connectors...
+2021-11-06 18:17:09.990 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses.edg
+2021-11-06 18:17:09.991 [Test worker] INFO  EdgeConvertFileParser - Parsing save file...
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 1|STUDENT
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 2|FACULTY
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeTable - Creating EdgeTable field with 13|COURSES
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 3|Grade
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 4|CourseName
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 5|Number
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 6|FacSSN
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 7|StudentSSN
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 8|StudentName
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeField - Creating EdgeField object with 11|FacultyName
+2021-11-06 18:17:09.991 [Test worker] DEBUG EdgeConvertFileParser - Creating EdgeConvertFileParser object using ./src/test/resources/mocks/Courses_save.edg.sav
+2021-11-06 18:17:09.992 [Test worker] DEBUG EdgeConvertFileParserTest - Testing that the parseFile was set correctly. Should be set to File object argument, is set to : ./src/test/resources/mocks/Courses.edg

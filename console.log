@@ -1,0 +1,105 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :run
+18:56:57.606 [main] INFO  RunEdgeConvert - MY FIRST LOG :D
+18:56:57.609 [main] INFO  RunEdgeConvert - Starting EdgeConvertGUI
+18:56:57.617 [main] INFO  EdgeConvertGUI - Showing edge converter GUI...
+EdgeConvertGUI$CreateDDLButtonListener.class
+EdgeConvertGUI$EdgeWindowListener.class
+CreateDDLMySQL.class
+EdgeConvertGUI.class
+EdgeConvertGUI$8.class
+RunEdgeConvert.class
+EdgeConvertGUI$9.class
+EdgeConvertGUI$7.class
+EdgeConvertGUI$EdgeMenuListener.class
+EdgeConvertGUI$15.class
+EdgeConvertGUI$5.class
+EdgeConvertGUI$1.class
+EdgeConvertGUI$11.class
+EdgeConvertGUI$13.class
+EdgeConvertGUI$3.class
+EdgeConvertGUI$EdgeRadioButtonListener.class
+EdgeConvertGUI$14.class
+EdgeConnector.class
+EdgeConvertGUI$4.class
+EdgeConvertGUI$6.class
+EdgeConvertFileParser.class
+EdgeTable.class
+EdgeConvertGUI$12.class
+EdgeConvertGUI$2.class
+EdgeField.class
+EdgeConvertCreateDDL.class
+EdgeConvertGUI$10.class
+ExampleFileFilter.class
+18:57:19.812 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - Parsing edge file...
+18:57:19.823 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - Resolving connectors...
+EdgeConvertGUI$CreateDDLButtonListener.class
+EdgeConvertGUI$EdgeWindowListener.class
+CreateDDLMySQL.class
+EdgeConvertGUI.class
+EdgeConvertGUI$8.class
+RunEdgeConvert.class
+EdgeConvertGUI$9.class
+EdgeConvertGUI$7.class
+EdgeConvertGUI$EdgeMenuListener.class
+EdgeConvertGUI$15.class
+EdgeConvertGUI$5.class
+EdgeConvertGUI$1.class
+EdgeConvertGUI$11.class
+EdgeConvertGUI$13.class
+EdgeConvertGUI$3.class
+EdgeConvertGUI$EdgeRadioButtonListener.class
+EdgeConvertGUI$14.class
+EdgeConnector.class
+EdgeConvertGUI$4.class
+EdgeConvertGUI$6.class
+EdgeConvertFileParser.class
+EdgeTable.class
+EdgeConvertGUI$12.class
+EdgeConvertGUI$2.class
+EdgeField.class
+EdgeConvertCreateDDL.class
+EdgeConvertGUI$10.class
+ExampleFileFilter.class
+18:57:24.430 [AWT-EventQueue-0] INFO  EdgeConvertCreateDDL - Attempting to get edge field.
+18:57:24.431 [AWT-EventQueue-0] ERROR EdgeConvertGUI - InvocationTargetException: java.lang.reflect.InvocationTargetException
+EdgeConvertGUI$CreateDDLButtonListener.class
+EdgeConvertGUI$EdgeWindowListener.class
+CreateDDLMySQL.class
+EdgeConvertGUI.class
+EdgeConvertGUI$8.class
+RunEdgeConvert.class
+EdgeConvertGUI$9.class
+EdgeConvertGUI$7.class
+EdgeConvertGUI$EdgeMenuListener.class
+EdgeConvertGUI$15.class
+EdgeConvertGUI$5.class
+EdgeConvertGUI$1.class
+EdgeConvertGUI$11.class
+EdgeConvertGUI$13.class
+EdgeConvertGUI$3.class
+EdgeConvertGUI$EdgeRadioButtonListener.class
+EdgeConvertGUI$14.class
+EdgeConnector.class
+EdgeConvertGUI$4.class
+EdgeConvertGUI$6.class
+EdgeConvertFileParser.class
+EdgeTable.class
+EdgeConvertGUI$12.class
+EdgeConvertGUI$2.class
+EdgeField.class
+EdgeConvertCreateDDL.class
+EdgeConvertGUI$10.class
+ExampleFileFilter.class
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 47s
+3 actionable tasks: 1 executed, 2 up-to-date
